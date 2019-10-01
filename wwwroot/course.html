@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JobJump</title>
+    <script src="index.js"></script>
+    <link href="styles.css" rel=stylesheet>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png">
+        <div class="aboutDiv">
+            <a href="form.html">Анкета</a>
+            <a href="course.html">Обучение</a>
+            <a href="custumer.html">Личный кабинет</a>
+        </div>
+        <div class="div_course">
+        <h4 id="c_name"></h4>
+        <input type="button" class="btn_buy" value="Отправить заявку" onclick="alert('Заявка отправленна')">
+        </div>
+    </header>
+    <div class="mainDiv">
+        <p id="c_descr" class="body_p"></p>
+    </div>
+    <div class="mainDiv">
+        <h6>Программа курса</h6>
+        <div class="horizontDiv" id="div_course">
+
+        </div>
+    </div>
+    <script>
+        getUserUp();
+
+    </script>
+
+</html>

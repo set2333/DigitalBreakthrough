@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<point xmlns="http://v8.1c.ru/8.2/virtual-resource-system"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		base="/1C_Base"
+		ib="File=&quot;C:\Users\SET\Documents\Projects\DigitalBreakthrough\1C_Base&quot;;">
+	<debug enable="true"
+			protocol="http"
+			url="localhost"/>
+	<ws enable="false"/>
+	<standardOdata enable="true"
+			reuseSessions="autouse"
+			sessionMaxAge="20"
+			poolSize="10"
+			poolTimeout="5"/>
+	<httpServices>
+		<service name="login"
+				rootUrl="login"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5"/>
+		<service name="api"
+				rootUrl="api"
+				enable="true"
+				reuseSessions="autouse"
+				sessionMaxAge="20"
+				poolSize="10"
+				poolTimeout="5"/>
+	</httpServices>
+</point>

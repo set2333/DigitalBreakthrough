@@ -1,0 +1,226 @@
+@font-face {
+    font-family: "Conqueror sans";
+    src: url(/fonts/conquerorsans-medium.otf)
+}
+
+.logo {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /*    padding: 20px;*/
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.logo p {
+    text-align: center;
+    margin: .1em;
+
+}
+
+.logo_form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn_login {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    padding: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: white;
+    font-size: 18px;
+    background-color: #f70000;
+    border-radius: 4px;
+/*    margin-bottom: 2em;*/
+    margin-top: 2em;
+}
+
+.inp_login {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    font-size: 24px;
+    padding-left: 5em;
+    padding-right: 5em;
+
+}
+
+.logo a {
+    font-size: 18px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.logo p {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url(img/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /*    width: 100vw;*/
+    /*    height: 96vh;*/
+    font-family: "Conqueror sans";
+}
+
+header img {
+    /*
+    float: left;
+    width: 10%;
+*/
+    display: block;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-top: 2%;
+    margin-right: 10px;
+    /*
+    background-color: white;
+    border-radius: 20px;
+*/
+}
+
+.header_logo {
+    /*     padding-bottom: 30%;   */
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+header p {
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    margin-left: 10%;
+}
+
+/*Вторая станица*/
+
+.about {
+    float: right;
+    margin-right: 25%;
+    margin-top: 100px;
+}
+
+.about p {
+   font-size: 24px; 
+}
+
+.aboutDiv {
+     display: inline;   
+}
+
+.body_p {
+    font-size: 24px; 
+}
+
+h6 {
+    font-size: 32px;
+}
+
+a {
+position: relative;
+    top:-20px;
+    left: 20%;
+    margin: 30px;
+    font-family: "Conqueror sans";
+    color: white;
+    font-size: 24px;
+}
+
+.horizontDiv {
+    text-align: left;
+
+}
+
+.dataDiv {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-left: 3%; 
+}
+
+.dataDivFirst {
+    width: 20%;
+    display: block;
+    margin-left: 10%; 
+}
+
+
+li {
+    display: inline-block; 
+    background-color: #e8e8e8;
+    padding: 5px;
+    margin: 5px;
+}
+
+ul {
+    text-align: left;
+}
+
+.mainDiv {
+ margin-left: 10%;   
+}
+
+.cl_photo {
+    width: 800px;
+}
+
+/*Страница 3*/
+
+header h4 {
+    font-family: "Conqueror sans";
+    color: white;
+    font-size: 40px;
+}
+
+.btn_buy {
+    background-color: white;
+    font-family: "Conqueror sans";
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.div_course {
+    display: inline;
+}
+
+.btn_test {
+    margin: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+select {
+    padding: 10px;
+}
